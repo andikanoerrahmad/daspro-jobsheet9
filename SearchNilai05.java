@@ -22,6 +22,9 @@ public class SearchNilai05 {
                 break;
             }
         }
+        if (!ditemukan) {
+            System.out.println("Nilai yang dicari tidak ditemukan");
+        }
         sc.close();
     }
 }
